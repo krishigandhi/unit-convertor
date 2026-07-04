@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.container {
+  width: 550px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Top section */
+.top {
+  background: linear-gradient(135deg, #6d28d9, #7c3aed);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.top h1 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Input */
+.input-box {
+  width: 100px;
+  height: 80px;
+  font-size: 40px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #a78bfa;
+  background: transparent;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Button */
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  background: #e5e7eb;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Bottom section */
+.bottom {
+  background: #1f2937;
+  padding: 25px;
+}
+
+/* Cards */
+.card {
+  background: #273549;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card h2 {
+  color: #4f369a;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.card p {
+  color: #d1d5db;
+  font-size: 14px;
+}
